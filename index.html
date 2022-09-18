@@ -124,7 +124,7 @@
   <script>
     $.getJSON('https://api.ahwest.cf', function(data) {
 
-        var nodes = `${data.nodes}`
+        var nodes = `${data.total}`
         var packets = `${data.packets}`
         $('.nodes').text(nodes)
         $('.packets').text(packets)
